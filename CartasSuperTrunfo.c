@@ -6,16 +6,53 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
+
+    printf ("***Desafio das cartas - novato*** \n");
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
+    // Declaração Variáveis: 
+
+    char codcidade [3];
+    char nomecidade [20];
+    int populacao = 0;
+    float area = 0.0;
+    int pib = 0;
+    int pontosturisticos = 0;
+
+    // Entrada dados
+
+    printf ("Digite o código da Cidade: \n");
+    scanf ("%s", &codcidade);
+
+    printf ("Digite o nome da Cidade: \n");
+    scanf ("%s", &nomecidade);
+
+    printf ("Digite a População: \n");
+    scanf ("%d", &populacao);
+
+    printf ("Digite a área: \n");
+    scanf ("%f", &area);
+
+    printf ("Digite o PIB: \n");
+    scanf ("%d", &pib);
+
+    printf ("O número de pontos turísticos: \n");
+    scanf ("%d", &pontosturisticos);
+
+     // Mostrando dados capturados: 
+
+    printf ("O código da Cidade é: %s\n", codcidade);
+
+    printf ("O nome da Cidade é: %s\n", nomecidade);
+
+    printf ("A população da Cidade é: %d\n", populacao);
+
+    printf ("A área da Cidade é: %f\n", area);
+
+    printf ("O PIB da Cidade é: %d\n", pib);
+
+    printf ("O número de pontos turísticos da Cidade é: %d\n", pontosturisticos);
+       
     return 0;
 }
