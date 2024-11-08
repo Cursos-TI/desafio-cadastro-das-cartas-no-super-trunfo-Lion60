@@ -101,6 +101,8 @@ int main() {
 
     printf (" Saída = 1 é o vencedor do Super Poder \n");
 
+    printf (" Cidade 1 = Primeira Cidade digitada e Cidade 2 = Segunda Cidade digitada: \n");
+
     printf (" Cidade 1 > Cidade 2: %d\n", super1 > super2);
     printf (" Cidade 2 > Cidade 1: %d\n", super2 > super1);
 
